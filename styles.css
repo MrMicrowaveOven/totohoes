@@ -1,0 +1,36 @@
+body {
+  text-align: left;
+  background-color: #E8F0F2;
+  color: #053742;
+}
+
+section {
+  padding: 20px 15%;
+}
+
+a {
+  color: #39A2DB;
+}
+
+footer {
+  text-align: center;
+}
+
+.accordion {
+  margin-top: 10px;
+}
+
+.mon-image-lg {
+  width: 50px;
+  height: 50px;
+}
+
+.mon-image-sm {
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+}
+
+.none {
+  display: none;
+}
