@@ -1,0 +1,59 @@
+{
+  "description": "martina-shaina-triana-I was tired of going to SWGT and trying counters that didn't work, so this list includes only ones I've tested myself or seen G3 players use, with tips",
+  "defenses": [
+    {
+      "monsters": [
+        "martina",
+        "shaina",
+        "triana",
+      ],
+      "counters": [
+        {
+          "monsters": [
+            "baleygyr",
+            "teon",
+            "lushen",
+          ],
+          "description": "Bale can be replaced by speed leads or other damage leads; Teon can be replaced by Kona",
+        },
+        {
+          "monsters": [
+            "sabrina",
+            "talia",
+            "eshir",
+          ],
+          "description": ""
+        }
+      ],
+    },
+    {
+      "monsters": [
+        "carcano",
+        "vigor",
+        "triana",
+      ],
+      "counters": [
+        {
+          "monsters": [
+            "kahli",
+            "skogal",
+            "chloe",
+          ],
+          "description": "Kahli: You will use her lead, so you only need 76 CR. Must be strong enough to kill Triana with atk buff. Around 170 speed is fast enough.
+
+Skogul: Vamp and 100 res for safety. Must move after Kahli. Kahli nukes Triana, then Skogul nukes Carc+Vigor and you clean up.
+
+Chloe should be fast enough to move before Vigors. +193 is enough to outspeed a 280 Vigor.",
+        },
+        {
+          "monsters": [
+            "vigor",
+            "lulu",
+            "malite/windy",
+          ],
+          "description": "Vigor and Malite/Windy should both be on destroy. Malite should be 100res. Consider destroying Vigor first if the Carcano doesn't hit hard."
+        }
+      ],
+    }
+  ]
+}
