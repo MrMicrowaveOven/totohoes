@@ -1,4 +1,4 @@
-{
+const counterData = {
   "description": "I was tired of going to SWGT and trying counters that didn't work, so this list includes only ones I've tested myself or seen G3 players use, with tips",
   "defenses": [
     {
