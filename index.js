@@ -167,6 +167,11 @@ function createImages(counter1, counter2, counter3) {
     for (let i = 0; i < separated.length; i++) {
       const mon = separated[i];
       img1.push(createImage(mon));
+      if (i % 2 == 0) {
+        const separator = document.createElement("p");
+        separator.innerText = " or  "
+        img1.push(separator);
+      }
     }
   } else {
     img1.push(createImage(counter1));
@@ -175,8 +180,14 @@ function createImages(counter1, counter2, counter3) {
   let img2 = [];
   if (counter2.includes("/")) {
     let separated = counter2.split("/");
-    for (const mon of separated) {
+    for (let i = 0; i < separated.length; i++) {
+      const mon = separated[i];
       img2.push(createImage(mon));
+      if (i % 2 == 0) {
+        const separator = document.createElement("p");
+        separator.innerText = " or  "
+        img2.push(separator);
+      }
     }
   } else {
     img2.push(createImage(counter2));
@@ -185,8 +196,14 @@ function createImages(counter1, counter2, counter3) {
   let img3 = [];
   if (counter3.includes("/")) {
     let separated = counter3.split("/");
-    for (const mon of separated) {
+    for (let i = 0; i < separated.length; i++) {
+      const mon = separated[i];
       img3.push(createImage(mon));
+      if (i % 2 == 0) {
+        const separator = document.createElement("p");
+        separator.innerText = " or  "
+        img3.push(separator);
+      }
     }
   } else {
     img3.push(createImage(counter3));
