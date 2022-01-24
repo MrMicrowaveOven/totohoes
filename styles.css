@@ -20,6 +20,20 @@ footer {
   margin-top: 10px;
 }
 
+.good-against {
+  display: flex;
+  flex-flow: row-wrap;
+  gap: 2%;
+  /* display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: max-content; */
+}
+
+.good-against p {
+  display: flex;
+  flex-direction: column;
+}
+
 .mon-image-lg {
   width: 50px;
   height: 50px;
