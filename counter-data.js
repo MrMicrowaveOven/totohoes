@@ -1,4 +1,4 @@
-{
+const counterData = {
   "description": "I was tired of going to SWGT and trying counters that didn't work, so this list includes only ones I've tested myself or seen G3 players use, with tips",
   "defenses": [
     {
@@ -461,5 +461,122 @@
         }
       ]
     }
+  ],
+  "offenses": [
+    {
+      "monsters": [
+        "tesarion",
+        "lulu",
+        "savannah_ethna",
+      ],
+      "description": "Good general team vs almost anything right now if good runes are invested!\nIf it's hard to match these stats, lower the SPD and RES; it's fine if everyone is around 200 SPD for this team.\nTurn order: Lulu first to cleanse, then Tesa (especially to def break + oblivion a Savannah), then the bruiser last.\nTesa: vio will, 31kHP, 1650ATK, 1150DEF, 229SPD, 82CR, 130CD, 58ACC.\nLulu: vio will, 36kHP, 1600DEF, 230SPD, 97RES.\nSavannah: vio will, 25kHP, 2000ATK, 850DEF, 200+SPD, 85+CR, 140+CD, 15+ACC.\nEthna: vio will, 27kHP, 1900ATK, 900DEF, 224SPD, 100CR, 137CD, 32ACC.",
+      "goodAgainst": [
+        "molong woosa savannah",
+        "molong molly savannah",
+        "molong betta fuuki",
+        "molong betta dominic",
+        "molong eshir fuuki",
+        "molong eshir dominic",
+        "carcano miles riley",
+        "carcano miles triana",
+      ]
+    },
+    {
+      "monsters": [
+        "tractor",
+        "lulu",
+        "windy",
+      ],
+      "description": "Works vs many nat 4 and 5 Carcano teams and more.\nIf it's hard to match these stats, lower the SPD; it's important that they are all tanky enough.\nTurn order: Lulu first to cleanse, then Tractor or Windy second.\nNever use Tractor S2.\nTractor: destroy(1-3 sets), optional +shield/rev, 27kHP, 2400DEF, 228SPD, 40ACC, -dmg from wind arts.\nLulu: vio will, 36kHP, 1600DEF, 230SPD, 97RES.\nWindy: destroy rev/guard, 40kHP, 1700DEF, 223SPD, -dmg from fire arts.\n",
+      "goodAgainst": [
+        "carcano miles triana",
+        "nana ken savannah",
+        "carcano vigor triana",
+        "carcano chilling triana",
+        "carcano orion iunu",
+        "carcano molly triana",
+        "harmonia skogul vigor",
+      ]
+    },
+    {
+      "monsters": [
+        "triana",
+        "elucia",
+        "vigor",
+      ],
+      "description": "Built to beat Kinki and Chamie teams (and still good against other ones too).\nTurn order: Vigor > Elucia > Triana\nVigor: vio destroy, 41kHP, 1kATK, 1150DEF, 270SPD, 43CR, 36ACC, +dmg on light\nElucia: vio will, 32kHP, 1500ATK, 1400DEF, 237SPD, 55ACC, +dmg on light, +additional damage by xyz\nTriana: vio destroy, 26kHP, 1300ATK, 1300DEF, 221SPD, 84CR, 142CD, +dmg on light",
+      "goodAgainst": [
+        "chamie lulu kinki",
+        "triana vigor chamie",
+        "vigor lulu kinki",
+        "vigor lala kinki",
+      ]
+    },
+    {
+      "monsters": [
+        "khmun",
+        "loren",
+        "elucia",
+      ],
+      "description": "Good when there's just 1-2 threats you need to control.\nIf it's hard to match the runes, you can drop the attack stats on Loren and Elucia.\nTurn order: Loren > Elucia >> Khmun\nKhmun: vio destroy, 36kHP, 1kATK, 1kDEF, 207SPD, 77CR, 160CD\nLoren: vio focus/broken, 33kHP, 1.1kATK, 800DEF, 255SPD, 85ACC\nElucia: vio focus/broken, 34kHP, 1.1kATK, 900DEF, 252SPD, 70ACC",
+      "goodAgainst": [
+        "harmonia skogul vigor",
+        "skogul vigor kinki",
+        "triana vigor kinki",
+        "orion fuuki molly",
+      ]
+    },
+    {
+      "monsters": [
+        "khmun",
+        "racuni",
+        "malite",
+      ],
+      "description": "Beats any non-carcano fire+wind+healer teams.\nTurn order: Racuni > Khmun >> Malite\nRacuni: vio broken/will, 30kHP, 1300DEF, 220-260SPD, 100RES\nKhmun: vio destroy, 25k+HP, 1k+ATK, 1kDEF, 200+SPD\nMalite: destroy guard/endure, 24kHP, 2800DEF, 15ACC, 100RES",
+      "goodAgainst": [
+        "tesarion taranys lulu",
+        "tesarion taranys molly",
+        "tesarion xingzhe lulu",
+        "tesarion xingzhe molly",
+        "tesarion xingzhe praha",
+        "tesarion xingzhe yeonhong",
+        "tesarion praha savannah",
+        "tesarion cheongpung laima",
+        "khmun clara savannah",
+        "khmun iris savannah",
+        "seara clara kaki",
+      ]
+    },
+    {
+      "monsters": [
+        "garo",
+        "raoq",
+        "verdehile",
+      ],
+      "description": "Great vs Carcano or Iris teams without water threats.\nKill Carcano first, use multihits to get through any Triana passives.\nTurn order: Raoq > Garo > Verde\nRaoq: swift blade, 20kHP, 1600ATK, 278SPD, 70CR, 140CD\nGaro: vamp blade, 11.5kHP, 2.5kATK, 800DEF, 112SPD, 95CR, 158CD\nVerde: rage blade, 16kHP, 2.1kATK, 600DEF, 207SPD, 100CR, 204CD",
+      "goodAgainst": [
+        "carcano eshir triana",
+        "carcano eshir savannah",
+        "carcano eshir fuuki",
+        "carcano molly fuuki",
+        "carcano iris fuuki",
+        "carcano iris triana",
+        "carcano iris savannah",
+        "carcano iris betta",
+      ]
+    },
+    {
+      "monsters": [
+        "kahli",
+        "skogul",
+        "chloe",
+      ],
+      "description": "Best CVT counter out there! Even if you don't crit Triana, Skogul will still carry if built right. Turn 1: Chloe buffs, Skogul throws rock, Kahli buffs, turn 2: Kahli snipes Triana, Skogul cleans up.\nTurn order: Chloe >> Kahli > Skogul\nChloe: swift will, 304+SPD (if slower, needs to be tanky and on will)\nKahli: will broken/blade, 15kHP, 2.8kATK, 800DEF, 173SPD, **77CR** , 190CD\nSkogul: vamp broken, NOT VIO, 44k+HP, 1kDEF, 170SPD, 100RES",
+      "goodAgainst": [
+        "carcano vigor triana",
+        "carcano lulu taranys",
+        "carcano kinki triana",
+      ]
+    },
   ]
 }
